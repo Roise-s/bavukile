@@ -43,27 +43,27 @@ const Services = () => {
     },
     {
       name: "Company Secretarial Services",
-      title: "Stay compliant with tax laws",
+      title: "Keep your business compliant with professional secretarial support",
       description:
-        "Our team helps you manage tax filings, compliance, and strategy so your business stays protected and optimized.",
+        "Completion, maintenance and record keeping of the organizations Statutory records, Completion and filling of statutory returns. Assisting with any other secretarial services.",
       image:
-        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg",
+        "/woman-laptop-chatting-dark.png",
     },
     {
       name: "Payroll Services",
-      title: "Stay compliant with tax laws",
+      title: "Reliable payroll services that keep your business running smoothly",
       description:
-        "Our team helps you manage tax filings, compliance, and strategy so your business stays protected and optimized.",
+        "Maintenance of the payroll per clients agreement. Producing and printing of payslips. Producing required reports including PAYE, UI,F SDL, ETC. Filing of the reports with relevant authorities. Completion and filing of required returns. Completion, maintenance and record keeping of the organizations payroll records.",
       image:
-        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg",
+        "/smartphone-charts-dark.png",
     },
     {
       name: "Management Consulting",
-      title: "Stay compliant with tax laws",
+      title: "Empowering your business with strategic insight and direction",
       description:
-        "Our team helps you manage tax filings, compliance, and strategy so your business stays protected and optimized.",
+        "Providing advise on working capital. Providing advice on cashflows. Drawing and implementation of internal control",
       image:
-        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg",
+        "/woman-tutoring-classroom-dark.png",
     },
   ];
 
@@ -71,7 +71,7 @@ const Services = () => {
   const activeService = navigation[activeIndex];
 
   return (
-    <div className="w-screen px-2 pt-4 mb-1 md:px-4">
+    <div className="h-screen px-2 pt-4 mb-1 md:px-4">
       <div className="max-w-lg">
         <h3 className="text-gray-800 text-2xl font-bold">Services</h3>
         <p className="text-gray-600 mt-2">
