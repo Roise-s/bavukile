@@ -1,4 +1,5 @@
 import About from "@/components/About"
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import MainSection from "@/components/MainSection"
 import Services from "@/components/Services"
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Vision />
       <About />
+      <Footer />
     </>
   )
 }
