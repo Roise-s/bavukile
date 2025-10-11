@@ -71,7 +71,7 @@ const Services = () => {
   const activeService = navigation[activeIndex];
 
   return (
-    <div className="h-screen px-2 pt-4 mb-40 md:px-4">
+    <div id="Services" className="h-screen px-2 pt-4 mb-40 md:px-4">
       <div className="max-w-lg">
         <h3 className="text-gray-800 text-2xl font-bold">Services</h3>
         <p className="text-gray-600 mt-2">

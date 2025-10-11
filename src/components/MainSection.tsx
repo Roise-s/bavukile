@@ -29,7 +29,7 @@ const MainSection = () => {
     }, [index]);
 
   return (
-    <div className="relative h-screen overflow-hidden justify-center pt-10 before:absolute before:top-0 before:start-1/2 before:bg-[url('/squaredBgElement.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-1 before:transform before:-translate-x-1/2">
+    <div id="Home" className="relative h-screen overflow-hidden justify-center pt-10 before:absolute before:top-0 before:start-1/2 before:bg-[url('/squaredBgElement.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-1 before:transform before:-translate-x-1/2">
     <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
         {/* Announcement Banner */}
         <div className="flex justify-center">

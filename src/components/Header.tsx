@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -29,10 +30,18 @@ const Header = () => {
         {/* Collapse */}
         <div id="hs-navbar-floating-dark" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-floating-dark-collapse">
         <div className="flex flex-col md:flex-row md:items-center md:justify-end gap-y-3 py-2 md:py-0 md:ps-7">
-            <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Home</a>
-            <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Services</a>
-            <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Vision</a>
-            <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">About</a>
+            <Link to="Home" smooth={true} duration={500}>
+              <p className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white cursor-pointer hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Home</p>
+            </Link>
+            <Link to="Services" smooth={true} duration={500}>
+              <p className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white cursor-pointer hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Services</p>
+            </Link>
+            <Link to="Vision" smooth={true} offset={-100} duration={500}>
+              <p className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white cursor-pointer hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">Vision</p>
+            </Link>
+            <Link to="About" smooth={true} offset={-70} duration={500}>
+              <p className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white cursor-pointer hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300">About</p>
+            </Link>
         </div>
         </div>
         {/* End Collapse */}

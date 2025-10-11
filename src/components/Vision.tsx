@@ -16,7 +16,7 @@ const Vision = () => {
     ]
 
     return (
-        <section className="py-14 mt-10">
+        <section id="Vision" className="py-14 mt-10">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-xl space-y-3">
                     <h3 className="text-indigo-600 font-semibold">
