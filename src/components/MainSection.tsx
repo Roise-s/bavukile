@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from 'react-scroll';
 
 const highlights: string[] = [
   "PROFESSIONAL EXCELLENCY",
@@ -65,9 +66,11 @@ const MainSection = () => {
 
         {/* Buttons */}
         <div className="mt-8 gap-3 flex justify-center">
-        <button className="inline-flex justify-center w-[150px] cursor-pointer items-center gap-x-3 text-center bg-linear-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:outline-hidden focus:from-violet-600 focus:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full py-3 px-4"> 
-            Get Started
-        </button>
+            <Link to="Services" smooth={true} offset={-30} duration={500}>
+                <button className="inline-flex justify-center w-[150px] cursor-pointer items-center gap-x-3 text-center bg-linear-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:outline-hidden focus:from-violet-600 focus:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full py-3 px-4"> 
+                    Get Started
+                </button>
+            </Link>
         </div>
         {/* End Buttons */}
     </div>
